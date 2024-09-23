@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Personas</title>
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url('images/6022708454952646027.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.persona {
+    background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente para las tarjetas */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Ancho fijo para las tarjetas */
+    transition: transform 0.3s;
+}
+
+.persona img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.persona h2 {
+    margin: 10px 0;
+}
+
+.persona p {
+    font-size: 14px;
+}
+
+.persona:hover {
+    transform: scale(1.05); /* Efecto de hover */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="contenedor-header"></div>
+        <header>
+            <nav id="nav">
+                <a href="index.html">Inicio</a> 
+                
+                
+            </nav>               
+        </header>
+    </div>
+    <div class="container">
+        <h1>Conoce a Estas Personas</h1>
+        <div class="personas">
+            <div class="persona">
+                <img src="images/alvares.jpeg" alt="Persona 1">
+                <h2>Joel Alvarez Meneses</h2>
+                <p>Desarrollador js</p>
+            </div>
+            <div class="persona">
+                <img src="images/dvd.jpeg" alt="Persona 2">
+                <h2>David Llave Zarate</h2>
+                <p>Desarrollador de html</p>
+            </div>
+            <div class="persona">
+                <img src="images/hum.jpeg" alt="Persona 3">
+                <h2>Esteban Humacaya Ramirez</h2>
+                <p>Desarrollador de css.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
